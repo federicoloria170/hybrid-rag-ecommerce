@@ -1,0 +1,765 @@
+[
+  {
+    "id": "PROD-001",
+    "barcode": "8001234567011",
+    "name": "Macchina da Caffè Espresso Inox",
+    "category": "Cucina",
+    "description": "Macchina da caffè espresso con pompa a 15 bar, cappuccinatore manuale in acciaio inossidabile.",
+    "price": 129.99,
+    "discount_percent": 10,
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Caffè cremoso come al bar, si scalda in pochissimo tempo!",
+      "Ottimi materiali in acciaio, un po' rumorosa durante la montatura del latte.",
+      "Design compatto ed elegante, facile da pulire."
+    ]
+  },
+  {
+    "id": "PROD-002",
+    "barcode": "8001234567022",
+    "name": "Friggitrice ad Aria Digital XXL 5.5L",
+    "category": "Cucina",
+    "description": "Friggitrice ad aria senza olio con 8 programmi preimpostati e display touch screen.",
+    "price": 89.90,
+    "discount_percent": 15,
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Patatine croccanti senza usare olio, capienza ideale per 4 persone.",
+      "Molto intuitiva da usare, cestello lavabile in lavastoviglie.",
+      "Occupa un po' di spazio sul piano cucina ma ne vale la pena."
+    ]
+  },
+  {
+    "id": "PROD-003",
+    "barcode": "8001234567033",
+    "name": "Aspirapolvere Robot Smart WiFi",
+    "category": "Elettrodomestici",
+    "description": "Robot aspirapolvere e lavapavimenti con mappatura laser della casa e controllo da app.",
+    "price": 249.00,
+    "discount_percent": 20,
+    "stock": 8,
+    "image_url": "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Mappa perfettamente le stanze evitando gli ostacoli in modo preciso.",
+      "Lavaggio pavimenti sufficiente per il ripasso quotidiano.",
+      "App ben fatta e programmabile con assistenti vocali."
+    ]
+  },
+  {
+    "id": "PROD-004",
+    "barcode": "8001234567044",
+    "name": "Frullatore ad Immersione 1000W",
+    "category": "Cucina",
+    "description": "Minipimer versatile con lame in titanio, bicchiere graduato e trotatutto incluso.",
+    "price": 39.99,
+    "discount_percent": 0,
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Motore potente, frulla anche le verdure più dure per fare vellutate perfette.",
+      "Impugnatura ergonomica e antiscivolo molto comoda."
+    ]
+  },
+  {
+    "id": "PROD-005",
+    "barcode": "8001234567055",
+    "name": "Bollitore Elettrico in Vetro 1.7L",
+    "category": "Cucina",
+    "description": "Bollitore con illuminazione LED blu, spegnimento automatico e filtro anticalcare.",
+    "price": 29.90,
+    "discount_percent": 5,
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f6?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Bolle l'acqua in meno di due minuti, l'effetto LED è stupendo.",
+      "Vetro resistente e coperchio ad apertura facilitata."
+    ]
+  },
+  {
+    "id": "PROD-006",
+    "barcode": "8001234567066",
+    "name": "Tostapane 2 Fette Vintage",
+    "category": "Cucina",
+    "description": "Tostapane con slot ampi, pinze in acciaio e 6 livelli di doratura regolabili.",
+    "price": 34.99,
+    "discount_percent": 0,
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.3,
+    "reviews": [
+      "Design retrò bellissimo da tenere a vista in cucina.",
+      "Tosta i toast in modo omogeneo senza bruciare i bordi."
+    ]
+  },
+  {
+    "id": "PROD-007",
+    "barcode": "8001234567077",
+    "name": "Purificatore d'Aria HEPA H13",
+    "category": "Elettrodomestici",
+    "description": "Purificatore silenzioso con filtro HEPA a tre stadi per polvere, allergeni e fumo.",
+    "price": 119.00,
+    "discount_percent": 10,
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.9,
+    "reviews": [
+      "Ha ridotto notevolmente i sintomi dell'allergia al polline in camera.",
+      "Modalità notte ultra silenziosa, non disturba durante il sonno."
+    ]
+  },
+  {
+    "id": "PROD-008",
+    "barcode": "8001234567088",
+    "name": "Ferro da Stiro a Vapore Verticale",
+    "category": "Elettrodomestici",
+    "description": "Stiratrice verticale portatile riscaldamento rapido in 20 secondi per tutti i tessuti.",
+    "price": 44.90,
+    "discount_percent": 0,
+    "stock": 14,
+    "image_url": "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.2,
+    "reviews": [
+      "Praticissimo per rinfrescare camicie e giagche prima di uscire.",
+      "Serbatoio un po' piccolo ma perfetto per i viaggi."
+    ]
+  },
+  {
+    "id": "PROD-009",
+    "barcode": "8001234567099",
+    "name": "Aspirapolvere Senza Fili Cyclone",
+    "category": "Elettrodomestici",
+    "description": "Scopa elettrica ricaricabile potente con spazzola motorizzata LED e autonomia 45 min.",
+    "price": 179.99,
+    "discount_percent": 25,
+    "stock": 7,
+    "image_url": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Leggera e maneggevole, aspira benissimo anche i peli dei cani dai tappeti.",
+      "La luce LED sulla spazzola rivela la polvere invisibile."
+    ]
+  },
+  {
+    "id": "PROD-010",
+    "barcode": "8001234567100",
+    "name": "Robot da Cucina Multifunzione",
+    "category": "Cucina",
+    "description": "Impastatrice planetaria con recipiente da 5 litri e accessori per frullare e tritare.",
+    "price": 199.50,
+    "discount_percent": 10,
+    "stock": 9,
+    "image_url": "https://images.unsplash.com/photo-1590794056226-77ef3a6c4743?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Impasta pizze e pane senza sforzo, stabilità eccezionale sul piano.",
+      "Accessori robusti lavabili in lavastoviglie."
+    ]
+  },
+  {
+    "id": "PROD-011",
+    "barcode": "8001234567111",
+    "name": "Umidificatore di Design a Ultrasuoni",
+    "category": "Elettrodomestici",
+    "description": "Umidificatore d'aria silenzioso con diffusore di aromi e luce notturna regolabile.",
+    "price": 32.00,
+    "discount_percent": 0,
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Mantiene l'umidità perfetta durante l'inverno quando i termosifoni sono accesi."
+    ]
+  },
+  {
+    "id": "PROD-012",
+    "barcode": "8001234567122",
+    "name": "Spremiagrumi Elettrico a Leva",
+    "category": "Cucina",
+    "description": "Spremiagrumi in acciaio inox con braccio a leva per una spremitura senza sforzo.",
+    "price": 49.99,
+    "discount_percent": 12,
+    "stock": 16,
+    "image_url": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Spreme arance e pompelmi fino all'ultima goccia in pochissimi secondi."
+    ]
+  },
+  {
+    "id": "PROD-013",
+    "barcode": "8001234567133",
+    "name": "Set Padelle Antiaderenti in Granito",
+    "category": "Cucina",
+    "description": "Tris di padelle antiaderenti senza PFOA adatte all'induzione ed al lavaggio in lavastoviglie.",
+    "price": 64.90,
+    "discount_percent": 10,
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Non si attacca assolutamente nulla anche cucinando senza olio o burro."
+    ]
+  },
+  {
+    "id": "PROD-014",
+    "barcode": "8001234567144",
+    "name": "Bilancia da Cucina Digitale Precisione",
+    "category": "Cucina",
+    "description": "Bilancia elettronica con superficie in vetro temperato, funzione tara e precisione 1g.",
+    "price": 14.99,
+    "discount_percent": 0,
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Precisa e compatta, comoda da riporre nei cassetti."
+    ]
+  },
+  {
+    "id": "PROD-015",
+    "barcode": "8001234567155",
+    "name": "Scaldaletto Matrimoniale Elettrico",
+    "category": "Casa",
+    "description": "Coprimatasso termico con 2 telecomandi indipendenti e 6 livelli di temperatura.",
+    "price": 79.00,
+    "discount_percent": 15,
+    "stock": 11,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Entrare in un letto caldo durante l'inverno è una sensazione fantastica."
+    ]
+  },
+  {
+    "id": "PROD-016",
+    "barcode": "8001234567166",
+    "name": "Lampada da Tavolo LED Smart RGB",
+    "category": "Illuminazione",
+    "description": "Lampada da comodino controllabile tramite App, Alexa, Google e touch, 16 milioni di colori.",
+    "price": 35.90,
+    "discount_percent": 5,
+    "stock": 19,
+    "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.3,
+    "reviews": [
+      "Ottima per creare atmosfera rilassante la sera, app molto fluida."
+    ]
+  },
+  {
+    "id": "PROD-017",
+    "barcode": "8001234567177",
+    "name": "Ventilatore a Colonna Silenzioso",
+    "category": "Elettrodomestici",
+    "description": "Ventilatore torre con oscillazione a 90 gradi, telecomando e timer fino a 12 ore.",
+    "price": 59.99,
+    "discount_percent": 0,
+    "stock": 13,
+    "image_url": "https://images.unsplash.com/photo-1618941716939-553df3c6c278?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.2,
+    "reviews": [
+      "Rinfresca bene la stanza ed è abbastanza silenzioso da tenere acceso la notte."
+    ]
+  },
+  {
+    "id": "PROD-018",
+    "barcode": "8001234567188",
+    "name": "Forno a Microonde Digitale 20L Grill",
+    "category": "Cucina",
+    "description": "Microonde multifunzione con potenza 800W, funzione sbrinamento rapido e piatto girevole.",
+    "price": 99.00,
+    "discount_percent": 10,
+    "stock": 14,
+    "image_url": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Scalda velocemente ed il grill dora bene la superficie dei cibi."
+    ]
+  },
+  {
+    "id": "PROD-019",
+    "barcode": "8001234567199",
+    "name": "Set Coltelli da Cucina Professionali",
+    "category": "Cucina",
+    "description": "Ceppo in legno con 6 coltelli in acciaio inox ad alto tenore di carbonio e affilalame.",
+    "price": 54.90,
+    "discount_percent": 20,
+    "stock": 17,
+    "image_url": "https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.9,
+    "reviews": [
+      "Lame affilatissime, taglio preciso per carne, pesce e verdure."
+    ]
+  },
+  {
+    "id": "PROD-020",
+    "barcode": "8001234567200",
+    "name": "Macchina per Sottovuoto Alimenti",
+    "category": "Cucina",
+    "description": "Sigillatrice per sottovuoto con sacchetti inclusi, idonea per conservazione secca e umida.",
+    "price": 38.50,
+    "discount_percent": 0,
+    "stock": 21,
+    "image_url": "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Allunga di molto la durata dei cibi in freezer, sigillatura ermetica perfetta."
+    ]
+  },
+  {
+    "id": "PROD-021",
+    "barcode": "8001234567211",
+    "name": "Scopa a Vapore Lavapavimenti 10-in-1",
+    "category": "Elettrodomestici",
+    "description": "Pulitore a vapore igienizzante per pavimenti, piastrelle, vetri e tessuti senza detergenti.",
+    "price": 69.90,
+    "discount_percent": 15,
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Uccide i batteri solo con l'acqua calda, perfetto se si hanno bambini piccoli."
+    ]
+  },
+  {
+    "id": "PROD-022",
+    "barcode": "8001234567222",
+    "name": "Macchina per il Pane Automatica",
+    "category": "Cucina",
+    "description": "Macchina per pane e dolci con 12 programmi, timer programmabile 13 ore e Keep Warm.",
+    "price": 109.00,
+    "discount_percent": 10,
+    "stock": 6,
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Svegliarsi al mattino con il profumo del pane fresco fatto in casa non ha prezzo."
+    ]
+  },
+  {
+    "id": "PROD-023",
+    "barcode": "8001234567233",
+    "name": "Montalatte Elettrico Automatico",
+    "category": "Cucina",
+    "description": "Cappuccinatore per schiuma di latte calda o fredda e scalda latte ad induzione.",
+    "price": 36.90,
+    "discount_percent": 0,
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Schiuma densa e compatta esattamente come al bar."
+    ]
+  },
+  {
+    "id": "PROD-024",
+    "barcode": "8001234567244",
+    "name": "Caffettiera Moka in Acciaio 6 Tazze",
+    "category": "Cucina",
+    "description": "Moka classica idonea anche per piani di cottura ad induzione, manico atermico.",
+    "price": 27.50,
+    "discount_percent": 0,
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Costruzione solida in acciaio inox, il caffè esce benissimo."
+    ]
+  },
+  {
+    "id": "PROD-025",
+    "barcode": "8001234567255",
+    "name": "Deumidificatore Portatile 12L/24h",
+    "category": "Elettrodomestici",
+    "description": "Deumidificatore compatto per ambienti umidi, sensore di umidità e scarico continuo.",
+    "price": 159.00,
+    "discount_percent": 10,
+    "stock": 8,
+    "image_url": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Risolto il problema della muffa nel bagno cieco, rimuove molta acqua."
+    ]
+  },
+  {
+    "id": "PROD-026",
+    "barcode": "8001234567266",
+    "name": "Griglia Elettrica con Piastre Antiaderenti",
+    "category": "Cucina",
+    "description": "Bistecchiera da tavolo apribile a 180 gradi con termostato e vaschetta raccogli grasso.",
+    "price": 49.90,
+    "discount_percent": 5,
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Griglia hamburger e carne velocemente senza produrre troppo fumo."
+    ]
+  },
+  {
+    "id": "PROD-027",
+    "barcode": "8001234567277",
+    "name": "Diffusore di Aromi ad Ultrasuoni",
+    "category": "Casa",
+    "description": "Diffusore per oli essenziali in effetto legno con luce LED a 7 colori.",
+    "price": 22.90,
+    "discount_percent": 0,
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Profuma tutta la stanza e l'estetica in legno è piacevole."
+    ]
+  },
+  {
+    "id": "PROD-028",
+    "barcode": "8001234567288",
+    "name": "Set Bicchieri da Vino in Cristallo",
+    "category": "Cucina",
+    "description": "Confezione da 6 calici da degustazione per vino rosso e bianco, lavabili in lavastoviglie.",
+    "price": 29.90,
+    "discount_percent": 10,
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Cristallo di ottima qualità, eleganti per cene importanti."
+    ]
+  },
+  {
+    "id": "PROD-029",
+    "barcode": "8001234567299",
+    "name": "Tagliere da Cucina in Legno di Bamboo",
+    "category": "Cucina",
+    "description": "Tagliere gigante multifunzione con scanalatura raccogli succhi e manici laterali.",
+    "price": 19.99,
+    "discount_percent": 0,
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1590794056226-77ef3a6c4743?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Resistente ai tagli di coltello, bamboo ecologico e robusto."
+    ]
+  },
+  {
+    "id": "PROD-030",
+    "barcode": "8001234567300",
+    "name": "Aspirabriciole Ricaricabile Senza Fili",
+    "category": "Elettrodomestici",
+    "description": "Aspiratore portatile potente per briciole, polvere da tavola e interni auto.",
+    "price": 26.90,
+    "discount_percent": 0,
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.3,
+    "reviews": [
+      "Comodissimo per pulire velocemente la tavola e i divani."
+    ]
+  },
+  {
+    "id": "PROD-031",
+    "barcode": "8001234567311",
+    "name": "Termoventilatore Ceramico Oscillante",
+    "category": "Elettrodomestici",
+    "description": "Stufetta elettrica a basso consumo con termostato ed elemento riscaldante PTC.",
+    "price": 39.00,
+    "discount_percent": 10,
+    "stock": 16,
+    "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Scalda il bagno in pochissimi minuti prima della doccia."
+    ]
+  },
+  {
+    "id": "PROD-032",
+    "barcode": "8001234567322",
+    "name": "Tagliaverdure Elettrico a Spirale",
+    "category": "Cucina",
+    "description": "Affettatrice per creare spaghetti di zucchine, carote e patate con 3 lame interchangeable.",
+    "price": 31.90,
+    "discount_percent": 0,
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.1,
+    "reviews": [
+      "Simpatico per preparare piatti di verdura originali."
+    ]
+  },
+  {
+    "id": "PROD-033",
+    "barcode": "8001234567333",
+    "name": "Macchina per Popcorn ad Aria Calda",
+    "category": "Cucina",
+    "description": "Preparazione popcorn senza olio e grassi in meno di 3 minuti.",
+    "price": 24.50,
+    "discount_percent": 0,
+    "stock": 27,
+    "image_url": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Divertente per le serate film con la famiglia, popcorn leggeri."
+    ]
+  },
+  {
+    "id": "PROD-034",
+    "barcode": "8001234567344",
+    "name": "Set Contenitori Ermetici in Vetro",
+    "category": "Cucina",
+    "description": "Set 8 contenitori per alimenti con coperchio a scatto adatti per microonde e freezer.",
+    "price": 34.90,
+    "discount_percent": 15,
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Chiusura perfettamente ermetica, il vetro non trattiene gli odori."
+    ]
+  },
+  {
+    "id": "PROD-035",
+    "barcode": "8001234567355",
+    "name": "Carrello da Cucina in Metallo e Legno",
+    "category": "Casa",
+    "description": "Carrello salvaspazio su ruote con 3 cestelli in metallo e ripiano superiore in legno.",
+    "price": 42.00,
+    "discount_percent": 0,
+    "stock": 14,
+    "image_url": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Pratico per organizzare spezie, frutti e utensili da cucina."
+    ]
+  },
+  {
+    "id": "PROD-036",
+    "barcode": "8001234567366",
+    "name": "Specchio da Bagno con Luce LED Touch",
+    "category": "Casa",
+    "description": "Specchio a parete antiappannamento con luce bianca calda/fredda regolabile.",
+    "price": 89.00,
+    "discount_percent": 10,
+    "stock": 9,
+    "image_url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "La funzione anti-appannamento funziona meravigliosamente."
+    ]
+  },
+  {
+    "id": "PROD-037",
+    "barcode": "8001234567377",
+    "name": "Macchina per la Pasta Fresca Manuale",
+    "category": "Cucina",
+    "description": "Sfogliatrice in acciaio cromato per sfoglia, fettuccine e tagliolini.",
+    "price": 39.90,
+    "discount_percent": 0,
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Robusta e tradizionale, stende la pasta in modo uniforme."
+    ]
+  },
+  {
+    "id": "PROD-038",
+    "barcode": "8001234567388",
+    "name": "Set Pentole in Acciaio Inox 18/10",
+    "category": "Cucina",
+    "description": "Batteria di pentole da 10 pezzi con fondo a tre strati ad alta conduzione termica.",
+    "price": 149.00,
+    "discount_percent": 20,
+    "stock": 7,
+    "image_url": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.9,
+    "reviews": [
+      "Pentole professionali, lavabili in lavastoviglie senza perdere brillantezza."
+    ]
+  },
+  {
+    "id": "PROD-039",
+    "barcode": "8001234567399",
+    "name": "Grattugia Elettrica Ricaricabile",
+    "category": "Cucina",
+    "description": "Grattugia senza cavo per parmigiano, pane secco, cioccolato e frutta secca.",
+    "price": 28.00,
+    "discount_percent": 0,
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1590794056226-77ef3a6c4743?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.3,
+    "reviews": [
+      "Sulla tavola per grattugiare il formaggio direttamente nei piatti è comodissima."
+    ]
+  },
+  {
+    "id": "PROD-040",
+    "barcode": "8001234567400",
+    "name": "Scaldavivande Elettrico Portatile",
+    "category": "Cucina",
+    "description": "Schiscetta elettrica con vaschetta in acciaio inox da 1.5L e doppio cavo casa/auto.",
+    "price": 25.90,
+    "discount_percent": 0,
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Perfetto per chi pranza in ufficio o in viaggio di lavoro."
+    ]
+  },
+  {
+    "id": "PROD-041",
+    "barcode": "8001234567411",
+    "name": "Lavasciuga Pavimenti Cordless",
+    "category": "Elettrodomestici",
+    "description": "Lava e aspira contemporaneamente sporco secco e liquido con serbatoi separati.",
+    "price": 229.00,
+    "discount_percent": 15,
+    "stock": 5,
+    "image_url": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Dimezza i tempi di pulizia della casa, pavimenti asciutti in pochi istanti."
+    ]
+  },
+  {
+    "id": "PROD-042",
+    "barcode": "8001234567422",
+    "name": "Fornetto Elettrico Pizza 400°C",
+    "category": "Cucina",
+    "description": "Forno per pizza con pietra refrattaria per cuocere una vera pizza napoletana in 4 minuti.",
+    "price": 119.00,
+    "discount_percent": 10,
+    "stock": 11,
+    "image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.9,
+    "reviews": [
+      "Raggiunge temperature elevate e cuoce la pizza identica a quella della pizzeria."
+    ]
+  },
+  {
+    "id": "PROD-043",
+    "barcode": "8001234567433",
+    "name": "Distributore Automatico di Sapone",
+    "category": "Casa",
+    "description": "Dosatore di sapone con sensore a infrarossi e ricarica USB.",
+    "price": 18.90,
+    "discount_percent": 0,
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.4,
+    "reviews": [
+      "Igienico ed evita sprechi di sapone liquido."
+    ]
+  },
+  {
+    "id": "PROD-044",
+    "barcode": "8001234567444",
+    "name": "Set Utensili da Cucina in Silicone",
+    "category": "Cucina",
+    "description": "Set 12 pezzi con manico in legno di bambù e teste in silicone resistente al calore.",
+    "price": 24.90,
+    "discount_percent": 0,
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1590794056226-77ef3a6c4743?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Non graffiano le padelle antiaderenti e si lavano facilmente."
+    ]
+  },
+  {
+    "id": "PROD-045",
+    "barcode": "8001234567455",
+    "name": "Sveglia Digitale con Proiettore",
+    "category": "Casa",
+    "description": "Orologio da comodino con proiezione orario sul soffitto e porta di ricarica USB.",
+    "price": 21.90,
+    "discount_percent": 0,
+    "stock": 19,
+    "image_url": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.2,
+    "reviews": [
+      "Comodissimo leggere l'ora sul soffitto al buio senza girarsi."
+    ]
+  },
+  {
+    "id": "PROD-046",
+    "barcode": "8001234567466",
+    "name": "Ventilatore da Soffitto con Luce LED",
+    "category": "Illuminazione",
+    "description": "Ventilatore silenzioso con motore DC a 6 velocità, luce dimmerabile e telecomando.",
+    "price": 139.00,
+    "discount_percent": 12,
+    "stock": 6,
+    "image_url": "https://images.unsplash.com/photo-1618941716939-553df3c6c278?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.8,
+    "reviews": [
+      "Silenziosissimo anche alla massima velocità, rinfresca la stanza in modo naturale."
+    ]
+  },
+  {
+    "id": "PROD-047",
+    "barcode": "8001234567477",
+    "name": "Affettatrice Elettrica da Casa",
+    "category": "Cucina",
+    "description": "Affettatrice compatta con lama ondulata in acciaio inox da 19cm per salumi e pane.",
+    "price": 79.90,
+    "discount_percent": 10,
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1590794056226-77ef3a6c4743?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.5,
+    "reviews": [
+      "Taglia fette sottilissime di prosciutto e formaggio stagionato."
+    ]
+  },
+  {
+    "id": "PROD-048",
+    "barcode": "8001234567488",
+    "name": "Sterilizzatore UV per Oggetti",
+    "category": "Casa",
+    "description": "Scatola di disinfezione a raggi UV-C per smartphone, chiavi, occhiali e mascherine.",
+    "price": 29.00,
+    "discount_percent": 0,
+    "stock": 24,
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.3,
+    "reviews": [
+      "Disinfetta in 5 minuti senza l'uso di prodotti chimici."
+    ]
+  },
+  {
+    "id": "PROD-049",
+    "barcode": "8001234567499",
+    "name": "Estrapolatore di Succhi a Freddo (Estrattore)",
+    "category": "Cucina",
+    "description": "Estrattore di succo a bassa velocità 45 giri/min per preservare nutrienti ed enzimi.",
+    "price": 99.90,
+    "discount_percent": 15,
+    "stock": 9,
+    "image_url": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.7,
+    "reviews": [
+      "Succhi concentrati e scarto quasi completamente asciutto."
+    ]
+  },
+  {
+    "id": "PROD-050",
+    "barcode": "8001234567500",
+    "name": "Scaldapiedi Elettrico in Morbida Peluche",
+    "category": "Casa",
+    "description": "Ciabatta riscaldante con spegnimento automatico e fodera interna lavabile.",
+    "price": 31.50,
+    "discount_percent": 0,
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+    "rating": 4.6,
+    "reviews": [
+      "Indispensabile mentre si lavora al PC nei giorni invernali freddi."
+    ]
+  }
+]

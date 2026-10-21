@@ -1,0 +1,44 @@
+services:
+  database:
+    image: chromadb/chroma:latest
+    container_name: rag_ecommerce_chroma
+    ports:
+      - "8000:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+    volumes:
+      - chroma_data:/chroma/chroma
+    restart: always
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: rag_ecommerce_backend
+    ports:
+      - "8001:8001"
+    environment:
+      - CHROMA_HOST=database
+      - CHROMA_PORT=8000
+      - GROQ_API_KEY=${YOUR_GROQ_API_KEY}
+    volumes:
+      - ./dataset_50_prodotti.json:/app/dataset_50_prodotti.json
+      - chroma_data:/chroma/chroma
+    depends_on:
+      - database
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: rag_ecommerce_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  chroma_data:
+  
